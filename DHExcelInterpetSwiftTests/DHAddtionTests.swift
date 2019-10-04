@@ -11,14 +11,14 @@ import XCTest
 
 class DHAddtionTests: XCTestCase {
     
-    func testDHAddtion_interpret_true() {
+    func test_interpret_integer_true() {
         let n1 = DHNumber(3)
         let n2 = DHNumber(4)
         let add = DHAddtion(left: n1, right: n2)
         XCTAssertTrue(add.interpret() == 7)
     }
 
-    func testDHAddtion_interpret_false() {
+    func test_interpret_integer_false() {
         let n1 = DHNumber(3)
         let n2 = DHNumber(4)
         let add = DHAddtion(left: n1, right: n2)

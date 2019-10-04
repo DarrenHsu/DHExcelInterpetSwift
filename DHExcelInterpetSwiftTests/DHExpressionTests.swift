@@ -11,11 +11,11 @@ import XCTest
 
 class DHExpressionTests: XCTestCase {
     
-    func testExpression_isNumeric_true() {
+    func test_isNumeric_integer_true() {
         XCTAssertTrue("7".isNumeric())
     }
     
-    func testExpression_isNumeric_false() {
+    func test_isNumeric_notInteger_false() {
         XCTAssertFalse("abc".isNumeric())
     }
 }

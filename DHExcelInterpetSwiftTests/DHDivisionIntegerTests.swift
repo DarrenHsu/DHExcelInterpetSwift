@@ -11,21 +11,21 @@ import XCTest
 
 class DHDivisionIntegerTests: XCTestCase {
     
-    func testDHDivisionInteger_interpret_true() {
+    func test_interpret_integer_true() {
         let n1 = DHNumber(10)
         let n2 = DHNumber(2)
         let div = DHDivisionInteger(left: n1, right: n2)
         XCTAssertTrue(div.interpret() == 5)
     }
     
-    func testDHDivisionInteger_interpret_false() {
+    func test_interpret_integer_false() {
         let n1 = DHNumber(10)
         let n2 = DHNumber(2)
         let div = DHDivisionInteger(left: n1, right: n2)
         XCTAssertFalse(div.interpret() == 3)
     }
 
-    func testDHDivisionInteger_interpret_hasDecimalPoint() {
+    func test_interpret_double_noDecimalPoint() {
         let n1 = DHNumber(10.5)
         let n2 = DHNumber(2.1)
         let div = DHDivisionInteger(left: n1, right: n2)

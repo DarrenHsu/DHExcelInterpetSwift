@@ -11,14 +11,14 @@ import XCTest
 
 class DHMultiplicationTests: XCTestCase {
     
-    func testDHMultiplication_interpret_true() {
+    func test_interpret_integer_true() {
         let n1 = DHNumber(10)
         let n2 = DHNumber(2)
         let mul = DHMultiplication(left: n1, right: n2)
         XCTAssertTrue(mul.interpret() == 20)
     }
 
-    func testDHMultiplication_interpret_false() {
+    func test_interpret_integer_false() {
         let n1 = DHNumber(10)
         let n2 = DHNumber(2)
         let mul = DHMultiplication(left: n1, right: n2)

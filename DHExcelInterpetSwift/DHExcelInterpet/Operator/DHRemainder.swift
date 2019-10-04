@@ -1,15 +1,15 @@
 //
-//  DHSubtration.swift
+//  DHRemainder.swift
 //  DHExcelInterpetSwift
 //
-//  Created by Darren Hsu on 2019/10/4.
+//  Created by wen on 2019/10/4.
 //  Copyright © 2019 wen. All rights reserved.
 //
 
 import Foundation
 
-class DHSubtration: DHExpression {
-    var symbol: String = "-"
+class DHRemainder: DHExpression {
+    var symbol: String = "%"
     
     private var left: DHExpression
     private var right: DHExpression
@@ -21,6 +21,7 @@ class DHSubtration: DHExpression {
     
     func interpret() -> Decimal {
         debugPrint("cal: \(self.left.interpret()) \(self.symbol) \(self.right.interpret())")
-        return self.left.interpret() - self.right.interpret()
+        return Decimal(self.left.interpret().numberValue.intValue % self.right.interpret().numberValue.intValue)
     }
 }
+

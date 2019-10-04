@@ -2,7 +2,7 @@
 //  DecimalExtension.swift
 //  DHExcelInterpetSwift
 //
-//  Created by wen on 2019/10/4.
+//  Created by Darren Hsu on 2019/10/4.
 //  Copyright © 2019 wen. All rights reserved.
 //
 
@@ -20,6 +20,10 @@ extension Decimal {
     }
     
     public var stringValue: String {
-        return NSDecimalNumber(decimal: self).stringValue
+        return self.numberValue.stringValue
+    }
+    
+    public var numberValue: NSDecimalNumber {
+        return NSDecimalNumber(decimal: self)
     }
 }

@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2152183234AC83A0062FD84 /* DHPowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2152182234AC83A0062FD84 /* DHPowerTests.swift */; };
+		A2152185234AC9320062FD84 /* DHPower.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2152184234AC9320062FD84 /* DHPower.swift */; };
+		A2152187234ACC390062FD84 /* DHColonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2152186234ACC390062FD84 /* DHColonTests.swift */; };
+		A2152189234ACCA30062FD84 /* DHColon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2152188234ACCA30062FD84 /* DHColon.swift */; };
+		A215218B234ACE0F0062FD84 /* DHLassThanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A215218A234ACE0F0062FD84 /* DHLassThanTests.swift */; };
+		A215218D234ACE950062FD84 /* DHLassThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A215218C234ACE950062FD84 /* DHLassThan.swift */; };
+		A215218F234AD0960062FD84 /* DHLassThanEqualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A215218E234AD0960062FD84 /* DHLassThanEqualTests.swift */; };
+		A2152191234AD15B0062FD84 /* DHLassThanEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2152190234AD15B0062FD84 /* DHLassThanEqual.swift */; };
+		A2152193234AD20E0062FD84 /* DHMoreThanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2152192234AD20E0062FD84 /* DHMoreThanTests.swift */; };
+		A2152195234AD2AB0062FD84 /* DHMoreThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2152194234AD2AB0062FD84 /* DHMoreThan.swift */; };
+		A2152197234AD51D0062FD84 /* DHMoreThanEqualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2152196234AD51D0062FD84 /* DHMoreThanEqualTests.swift */; };
+		A2152199234AD5A40062FD84 /* DHMoreThanEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2152198234AD5A40062FD84 /* DHMoreThanEqual.swift */; };
 		A248460E2346F58A007460A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248460D2346F58A007460A5 /* AppDelegate.swift */; };
 		A24846102346F58A007460A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248460F2346F58A007460A5 /* SceneDelegate.swift */; };
 		A24846122346F58A007460A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24846112346F58A007460A5 /* ViewController.swift */; };
@@ -48,6 +60,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A2152182234AC83A0062FD84 /* DHPowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHPowerTests.swift; sourceTree = "<group>"; };
+		A2152184234AC9320062FD84 /* DHPower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHPower.swift; sourceTree = "<group>"; };
+		A2152186234ACC390062FD84 /* DHColonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHColonTests.swift; sourceTree = "<group>"; };
+		A2152188234ACCA30062FD84 /* DHColon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHColon.swift; sourceTree = "<group>"; };
+		A215218A234ACE0F0062FD84 /* DHLassThanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHLassThanTests.swift; sourceTree = "<group>"; };
+		A215218C234ACE950062FD84 /* DHLassThan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHLassThan.swift; sourceTree = "<group>"; };
+		A215218E234AD0960062FD84 /* DHLassThanEqualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHLassThanEqualTests.swift; sourceTree = "<group>"; };
+		A2152190234AD15B0062FD84 /* DHLassThanEqual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHLassThanEqual.swift; sourceTree = "<group>"; };
+		A2152192234AD20E0062FD84 /* DHMoreThanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHMoreThanTests.swift; sourceTree = "<group>"; };
+		A2152194234AD2AB0062FD84 /* DHMoreThan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHMoreThan.swift; sourceTree = "<group>"; };
+		A2152196234AD51D0062FD84 /* DHMoreThanEqualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHMoreThanEqualTests.swift; sourceTree = "<group>"; };
+		A2152198234AD5A40062FD84 /* DHMoreThanEqual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHMoreThanEqual.swift; sourceTree = "<group>"; };
 		A248460A2346F58A007460A5 /* DHExcelInterpetSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHExcelInterpetSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A248460D2346F58A007460A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A248460F2346F58A007460A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +170,12 @@
 				A269C4B523472ACE00069D65 /* DHEqualTests.swift */,
 				A26C98762347310E00CEE3D0 /* DHNotEqualTests.swift */,
 				A2C50C732347435A005B89DC /* DHRemainderTests.swift */,
+				A2152182234AC83A0062FD84 /* DHPowerTests.swift */,
+				A2152186234ACC390062FD84 /* DHColonTests.swift */,
+				A215218A234ACE0F0062FD84 /* DHLassThanTests.swift */,
+				A215218E234AD0960062FD84 /* DHLassThanEqualTests.swift */,
+				A2152192234AD20E0062FD84 /* DHMoreThanTests.swift */,
+				A2152196234AD51D0062FD84 /* DHMoreThanEqualTests.swift */,
 				A24846262346F58C007460A5 /* Info.plist */,
 			);
 			path = DHExcelInterpetSwiftTests;
@@ -182,6 +212,12 @@
 				A269C4B723472BDB00069D65 /* DHEqual.swift */,
 				A26C9878234731C900CEE3D0 /* DHNotEqual.swift */,
 				A2C50C7523474419005B89DC /* DHRemainder.swift */,
+				A2152184234AC9320062FD84 /* DHPower.swift */,
+				A2152188234ACCA30062FD84 /* DHColon.swift */,
+				A215218C234ACE950062FD84 /* DHLassThan.swift */,
+				A2152190234AD15B0062FD84 /* DHLassThanEqual.swift */,
+				A2152194234AD2AB0062FD84 /* DHMoreThan.swift */,
+				A2152198234AD5A40062FD84 /* DHMoreThanEqual.swift */,
 			);
 			path = Operator;
 			sourceTree = "<group>";
@@ -296,11 +332,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				A269C4BA23472CB800069D65 /* DHFormula.swift in Sources */,
+				A2152185234AC9320062FD84 /* DHPower.swift in Sources */,
 				A24846122346F58A007460A5 /* ViewController.swift in Sources */,
 				A248464A23471DC8007460A5 /* DecimalExtension.swift in Sources */,
 				A2C50C7623474419005B89DC /* DHRemainder.swift in Sources */,
 				A248460E2346F58A007460A5 /* AppDelegate.swift in Sources */,
 				A24846102346F58A007460A5 /* SceneDelegate.swift in Sources */,
+				A2152199234AD5A40062FD84 /* DHMoreThanEqual.swift in Sources */,
+				A2152191234AD15B0062FD84 /* DHLassThanEqual.swift in Sources */,
+				A215218D234ACE950062FD84 /* DHLassThan.swift in Sources */,
 				A248464323471A89007460A5 /* DHMultiplication.swift in Sources */,
 				A248463F23471793007460A5 /* DHSubtration.swift in Sources */,
 				A248464723471BDB007460A5 /* DHDivision.swift in Sources */,
@@ -309,6 +349,8 @@
 				A248463723470FB4007460A5 /* DHAAddtion.swift in Sources */,
 				A248463923471371007460A5 /* DHNumber.swift in Sources */,
 				A26C9879234731C900CEE3D0 /* DHNotEqual.swift in Sources */,
+				A2152195234AD2AB0062FD84 /* DHMoreThan.swift in Sources */,
+				A2152189234ACCA30062FD84 /* DHColon.swift in Sources */,
 				A248463323470B57007460A5 /* DHExpression.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -319,14 +361,20 @@
 			files = (
 				A248463D234716DB007460A5 /* DHSubtrationTests.swift in Sources */,
 				A2C50C742347435A005B89DC /* DHRemainderTests.swift in Sources */,
+				A2152183234AC83A0062FD84 /* DHPowerTests.swift in Sources */,
 				A24846252346F58C007460A5 /* DHExcelInterpetSwiftTests.swift in Sources */,
+				A2152193234AD20E0062FD84 /* DHMoreThanTests.swift in Sources */,
 				A248463523470E22007460A5 /* DHExpressionTests.swift in Sources */,
 				A2484641234719E1007460A5 /* DHMultiplicationTests.swift in Sources */,
 				A26C98772347310E00CEE3D0 /* DHNotEqualTests.swift in Sources */,
 				A269C4B623472ACE00069D65 /* DHEqualTests.swift in Sources */,
 				A248464523471B70007460A5 /* DHDivisionTests.swift in Sources */,
+				A2152197234AD51D0062FD84 /* DHMoreThanEqualTests.swift in Sources */,
+				A215218B234ACE0F0062FD84 /* DHLassThanTests.swift in Sources */,
 				A269C4B2234722AE00069D65 /* DHDivisionIntegerTests.swift in Sources */,
 				A248463B234714C7007460A5 /* DHAddtionTests.swift in Sources */,
+				A215218F234AD0960062FD84 /* DHLassThanEqualTests.swift in Sources */,
+				A2152187234ACC390062FD84 /* DHColonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

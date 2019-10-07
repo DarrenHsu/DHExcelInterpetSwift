@@ -51,6 +51,7 @@
 		A2EE90DC234B024D00CD7020 /* DHStatementDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE90DB234B024D00CD7020 /* DHStatementDataTests.swift */; };
 		A2EE90DE234B0B7A00CD7020 /* DHExcelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE90DD234B0B7A00CD7020 /* DHExcelData.swift */; };
 		A2EE90E0234B12ED00CD7020 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE90DF234B12ED00CD7020 /* StringExtension.swift */; };
+		A2EE90E2234B33CF00CD7020 /* DHExcelDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE90E1234B33CF00CD7020 /* DHExcelDataTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -112,6 +113,7 @@
 		A2EE90DB234B024D00CD7020 /* DHStatementDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHStatementDataTests.swift; sourceTree = "<group>"; };
 		A2EE90DD234B0B7A00CD7020 /* DHExcelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHExcelData.swift; sourceTree = "<group>"; };
 		A2EE90DF234B12ED00CD7020 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		A2EE90E1234B33CF00CD7020 /* DHExcelDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHExcelDataTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +187,7 @@
 				A2152192234AD20E0062FD84 /* DHMoreThanTests.swift */,
 				A2152196234AD51D0062FD84 /* DHMoreThanEqualTests.swift */,
 				A2EE90DB234B024D00CD7020 /* DHStatementDataTests.swift */,
+				A2EE90E1234B33CF00CD7020 /* DHExcelDataTests.swift */,
 				A24846262346F58C007460A5 /* Info.plist */,
 			);
 			path = DHExcelInterpetSwiftTests;
@@ -379,6 +382,7 @@
 				A2C50C742347435A005B89DC /* DHRemainderTests.swift in Sources */,
 				A2152183234AC83A0062FD84 /* DHPowerTests.swift in Sources */,
 				A24846252346F58C007460A5 /* DHExcelInterpetSwiftTests.swift in Sources */,
+				A2EE90E2234B33CF00CD7020 /* DHExcelDataTests.swift in Sources */,
 				A2152193234AD20E0062FD84 /* DHMoreThanTests.swift in Sources */,
 				A248463523470E22007460A5 /* DHExpressionTests.swift in Sources */,
 				A2484641234719E1007460A5 /* DHMultiplicationTests.swift in Sources */,

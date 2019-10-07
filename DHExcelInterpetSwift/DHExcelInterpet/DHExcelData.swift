@@ -40,8 +40,9 @@ public struct DHExcelData {
         self.firstCol = firstCol
         
         (0..<cols).forEach { (i) in
+            self.table.append([])
             (0..<rows).forEach { l in
-                self.table[i][l] = 0
+                self.table[i].append(0)
             }
         }
         
@@ -53,9 +54,17 @@ public struct DHExcelData {
     }
     
     public func getCol(column: String) -> Int {
+        var number: Int = 0
+        _ = column.match(pattern: "[A-Z]{1,2}") {
+            let cs = $0.map { (c) -> Character in
+                return c
+            }
+            (0..<cs.count).forEach { (i) in
+                number = i * 26 + Int(cs[i].asciiValue!) - 65
+            }
+        }
         
-        
-        return -1;
+        return number
     }
     
 

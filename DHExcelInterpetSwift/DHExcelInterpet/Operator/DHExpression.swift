@@ -12,9 +12,3 @@ public protocol DHExpression {
     var symbol: String { get set }
     func interpret() -> Decimal
 }
-
-extension String {
-    public func isNumeric() -> Bool {
-        return self.range(of: #"-?\d+(\.\d+)?"#, options: .regularExpression) != nil
-    }
-}

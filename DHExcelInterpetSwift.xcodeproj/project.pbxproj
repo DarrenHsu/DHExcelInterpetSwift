@@ -19,6 +19,7 @@
 		A2152195234AD2AB0062FD84 /* DHMoreThan.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2152194234AD2AB0062FD84 /* DHMoreThan.swift */; };
 		A2152197234AD51D0062FD84 /* DHMoreThanEqualTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2152196234AD51D0062FD84 /* DHMoreThanEqualTests.swift */; };
 		A2152199234AD5A40062FD84 /* DHMoreThanEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2152198234AD5A40062FD84 /* DHMoreThanEqual.swift */; };
+		A215219B234ADA380062FD84 /* DHStatementData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A215219A234ADA380062FD84 /* DHStatementData.swift */; };
 		A248460E2346F58A007460A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248460D2346F58A007460A5 /* AppDelegate.swift */; };
 		A24846102346F58A007460A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A248460F2346F58A007460A5 /* SceneDelegate.swift */; };
 		A24846122346F58A007460A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24846112346F58A007460A5 /* ViewController.swift */; };
@@ -47,6 +48,9 @@
 		A26C9879234731C900CEE3D0 /* DHNotEqual.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26C9878234731C900CEE3D0 /* DHNotEqual.swift */; };
 		A2C50C742347435A005B89DC /* DHRemainderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C50C732347435A005B89DC /* DHRemainderTests.swift */; };
 		A2C50C7623474419005B89DC /* DHRemainder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2C50C7523474419005B89DC /* DHRemainder.swift */; };
+		A2EE90DC234B024D00CD7020 /* DHStatementDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE90DB234B024D00CD7020 /* DHStatementDataTests.swift */; };
+		A2EE90DE234B0B7A00CD7020 /* DHExcelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE90DD234B0B7A00CD7020 /* DHExcelData.swift */; };
+		A2EE90E0234B12ED00CD7020 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EE90DF234B12ED00CD7020 /* StringExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +76,7 @@
 		A2152194234AD2AB0062FD84 /* DHMoreThan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHMoreThan.swift; sourceTree = "<group>"; };
 		A2152196234AD51D0062FD84 /* DHMoreThanEqualTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHMoreThanEqualTests.swift; sourceTree = "<group>"; };
 		A2152198234AD5A40062FD84 /* DHMoreThanEqual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHMoreThanEqual.swift; sourceTree = "<group>"; };
+		A215219A234ADA380062FD84 /* DHStatementData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHStatementData.swift; sourceTree = "<group>"; };
 		A248460A2346F58A007460A5 /* DHExcelInterpetSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DHExcelInterpetSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A248460D2346F58A007460A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A248460F2346F58A007460A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -104,6 +109,9 @@
 		A26C9878234731C900CEE3D0 /* DHNotEqual.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHNotEqual.swift; sourceTree = "<group>"; };
 		A2C50C732347435A005B89DC /* DHRemainderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHRemainderTests.swift; sourceTree = "<group>"; };
 		A2C50C7523474419005B89DC /* DHRemainder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHRemainder.swift; sourceTree = "<group>"; };
+		A2EE90DB234B024D00CD7020 /* DHStatementDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHStatementDataTests.swift; sourceTree = "<group>"; };
+		A2EE90DD234B0B7A00CD7020 /* DHExcelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHExcelData.swift; sourceTree = "<group>"; };
+		A2EE90DF234B12ED00CD7020 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +184,7 @@
 				A215218E234AD0960062FD84 /* DHLassThanEqualTests.swift */,
 				A2152192234AD20E0062FD84 /* DHMoreThanTests.swift */,
 				A2152196234AD51D0062FD84 /* DHMoreThanEqualTests.swift */,
+				A2EE90DB234B024D00CD7020 /* DHStatementDataTests.swift */,
 				A24846262346F58C007460A5 /* Info.plist */,
 			);
 			path = DHExcelInterpetSwiftTests;
@@ -187,6 +196,8 @@
 				A248464823471DAD007460A5 /* Extensions */,
 				A248463123470B0F007460A5 /* Operator */,
 				A248463023470ADA007460A5 /* Formula */,
+				A215219A234ADA380062FD84 /* DHStatementData.swift */,
+				A2EE90DD234B0B7A00CD7020 /* DHExcelData.swift */,
 			);
 			path = DHExcelInterpet;
 			sourceTree = "<group>";
@@ -226,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				A248464923471DC8007460A5 /* DecimalExtension.swift */,
+				A2EE90DF234B12ED00CD7020 /* StringExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -332,6 +344,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A269C4BA23472CB800069D65 /* DHFormula.swift in Sources */,
+				A215219B234ADA380062FD84 /* DHStatementData.swift in Sources */,
 				A2152185234AC9320062FD84 /* DHPower.swift in Sources */,
 				A24846122346F58A007460A5 /* ViewController.swift in Sources */,
 				A248464A23471DC8007460A5 /* DecimalExtension.swift in Sources */,
@@ -344,11 +357,13 @@
 				A248464323471A89007460A5 /* DHMultiplication.swift in Sources */,
 				A248463F23471793007460A5 /* DHSubtration.swift in Sources */,
 				A248464723471BDB007460A5 /* DHDivision.swift in Sources */,
+				A2EE90DE234B0B7A00CD7020 /* DHExcelData.swift in Sources */,
 				A269C4B42347233800069D65 /* DHDivisionInteger.swift in Sources */,
 				A269C4B823472BDB00069D65 /* DHEqual.swift in Sources */,
 				A248463723470FB4007460A5 /* DHAAddtion.swift in Sources */,
 				A248463923471371007460A5 /* DHNumber.swift in Sources */,
 				A26C9879234731C900CEE3D0 /* DHNotEqual.swift in Sources */,
+				A2EE90E0234B12ED00CD7020 /* StringExtension.swift in Sources */,
 				A2152195234AD2AB0062FD84 /* DHMoreThan.swift in Sources */,
 				A2152189234ACCA30062FD84 /* DHColon.swift in Sources */,
 				A248463323470B57007460A5 /* DHExpression.swift in Sources */,
@@ -360,6 +375,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A248463D234716DB007460A5 /* DHSubtrationTests.swift in Sources */,
+				A2EE90DC234B024D00CD7020 /* DHStatementDataTests.swift in Sources */,
 				A2C50C742347435A005B89DC /* DHRemainderTests.swift in Sources */,
 				A2152183234AC83A0062FD84 /* DHPowerTests.swift in Sources */,
 				A24846252346F58C007460A5 /* DHExcelInterpetSwiftTests.swift in Sources */,

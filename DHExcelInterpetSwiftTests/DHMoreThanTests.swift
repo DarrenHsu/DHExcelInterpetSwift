@@ -14,21 +14,21 @@ class DHMoreThanTests: XCTestCase {
     func test_interpret_integer_true() {
         let n1 = DHNumber(3)
         let n2 = DHNumber(2)
-        let ex = DHLassThanEqual(left: n1, right: n2)
+        let ex = DHMoreThan(left: n1, right: n2)
         XCTAssertTrue(ex.interpret() == DHBoolValue.true.rawValue)
     }
     
     func test_interpret_sameInteger_true() {
         let n1 = DHNumber(2)
         let n2 = DHNumber(2)
-        let ex = DHLassThanEqual(left: n1, right: n2)
+        let ex = DHMoreThan(left: n1, right: n2)
         XCTAssertTrue(ex.interpret() == DHBoolValue.false.rawValue)
     }
 
     func test_interpret_integer_false() {
         let n1 = DHNumber(3)
         let n2 = DHNumber(2)
-        let ex = DHLassThanEqual(left: n1, right: n2)
+        let ex = DHMoreThan(left: n1, right: n2)
         XCTAssertFalse(ex.interpret() == DHBoolValue.false.rawValue)
     }
 }

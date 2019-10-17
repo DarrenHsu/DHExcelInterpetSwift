@@ -55,7 +55,7 @@ public struct DHExcelData {
     
     public func getCol(column: String) -> Int {
         var number: Int = 0
-        _ = column.match(pattern: "[A-Z]{1,2}") {
+        _ = column.match(pattern: #"[A-Z]{1,2}"#) {
             let cs = $0.map { (c) -> Character in
                 return c
             }
@@ -68,10 +68,48 @@ public struct DHExcelData {
     }
     
     public func getRow(column: String) -> Int {
-        if let result = column.findFirst(pattern: "-{0,1}\\d{1,3}") {
+        if let result = column.findFirst(pattern: #"-{0,1}\d{1,3}"#) {
             return Int(result)!
         }
         return 0
     }
-
+    
+    public func getColumnIndex(column: String) -> [Int]? {
+        if let result = column.findFirst(pattern: #"^(\$)([A-Z]{1,2})(-{0,1}\d{1,3})$"#) {
+            let col = getCol(column: result)
+            let row = getRow(column: result) - 1 - self.firstRow + self.currentRow
+            debugPrint("\(result) col \(col),row \(row)")
+            return [col, row]
+        }
+        
+        if let result = column.findFirst(pattern: #"^([A-Z]{1,2})(\$)(-{0,1}\d{1,3})$"#) {
+            let col = getCol(column: result)
+            let row = getRow(column: result) - 1
+            debugPrint("\(result) col \(col),row \(row)")
+            return [col, row]
+        }
+        
+        if let result = column.findFirst(pattern: #"^\$([A-Z]{1,2})\$(-{0,1}\d{1,3})$"#) {
+            let col = getCol(column: result)
+            let row = getRow(column: result) - 1
+            debugPrint("\(result) col \(col),row \(row)")
+            return [col, row]
+        }
+        
+        if let result = column.findFirst(pattern: #"([A-Z]{1,2})(-{0,1}\d{1,3})$"#) {
+            let col = getCol(column: result)
+            let row = getRow(column: result) - 1 - self.firstRow + self.currentRow
+            debugPrint("\(result) col \(col),row \(row)")
+            return [col, row]
+        }
+        
+        return []
+    }
+    
+    public func getColumnType(column: String) -> Decimal {
+        if let indexs = self.getColumnIndex(column: column) {
+            return self.table[indexs[0]][indexs[1]]
+        }
+        return NSDecimalNumber(string: column == "\"\"" ? "0" : column).decimalValue
+    }
 }

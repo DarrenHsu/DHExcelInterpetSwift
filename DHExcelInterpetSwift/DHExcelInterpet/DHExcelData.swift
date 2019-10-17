@@ -103,7 +103,7 @@ public struct DHExcelData {
             return [col, row]
         }
         
-        return []
+        return nil
     }
     
     public func getColumnType(column: String) -> Decimal {

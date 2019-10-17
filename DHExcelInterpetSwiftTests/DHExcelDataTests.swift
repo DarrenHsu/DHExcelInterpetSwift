@@ -22,5 +22,17 @@ class DHExcelDataTests: XCTestCase {
         XCTAssertTrue(excel.getCol(column: "AC1") == 28)
         XCTAssertTrue(excel.getCol(column: "AD1") == 29)
     }
+    
+    func test_getRow_number_true() {
+        let excel = DHExcelData(name: "test", cols: 10, rows: 10, statements: [], firstCol: 0, firstRow: 0)
+        XCTAssertTrue(excel.getCol(column: "A1") == 0)
+        XCTAssertTrue(excel.getCol(column: "B2") == 1)
+        XCTAssertTrue(excel.getCol(column: "C3") == 2)
+        XCTAssertTrue(excel.getCol(column: "D4") == 3)
+        XCTAssertTrue(excel.getCol(column: "AA1") == 0)
+        XCTAssertTrue(excel.getCol(column: "AB2") == 1)
+        XCTAssertTrue(excel.getCol(column: "AC3") == 2)
+        XCTAssertTrue(excel.getCol(column: "AD4") == 3)
+    }
 
 }

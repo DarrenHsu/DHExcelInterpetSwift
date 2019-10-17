@@ -67,5 +67,11 @@ public struct DHExcelData {
         return number
     }
     
+    public func getRow(column: String) -> Int {
+        if let result = column.findFirst(pattern: "-{0,1}\\d{1,3}") {
+            return Int(result)!
+        }
+        return 0
+    }
 
 }

@@ -28,4 +28,16 @@ extension String {
         }
         return b
     }
+    
+    public func findFirst(pattern: String) -> String? {
+        if let regex = try? NSRegularExpression(pattern: pattern, options: []) {
+            let range = NSRange(self.startIndex..<self.endIndex, in: self)
+            let matches = regex.matches(in: self, options: [], range: range)
+            if let result = matches.first {
+                let resultRange = Range(result.range, in: self)!
+                return String(self[resultRange])
+            }
+        }
+        return nil
+    }
 }
